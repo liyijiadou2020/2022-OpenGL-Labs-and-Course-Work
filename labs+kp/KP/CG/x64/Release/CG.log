@@ -1,0 +1,54 @@
+﻿  main.cpp
+D:\source\VS_project\CG\main.cpp(24,62): warning C4305: “初始化”: 从“double”到“float”截断
+D:\source\VS_project\CG\main.cpp(41,1): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(75,45): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+D:\source\VS_project\CG\main.cpp(78,49): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+D:\source\VS_project\CG\main.cpp(81,50): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\source\VS_project\CG\main.cpp(81,30): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\source\VS_project\CG\main.cpp(113,62): warning C4305: “-=”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+D:\source\VS_project\CG\main.cpp(114,50): warning C4305: “+=”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+D:\source\VS_project\CG\main.cpp(115,50): warning C4305: “-=”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+D:\source\VS_project\CG\main.cpp(122,19): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(122,53): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(123,18): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(123,52): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(124,19): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(124,54): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(125,18): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(125,53): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(126,35): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(126,52): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(127,35): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(127,53): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(128,36): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(128,53): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(129,36): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(129,54): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(130,18): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(130,35): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(131,19): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(131,36): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(132,19): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(132,38): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(133,20): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(133,39): warning C4305: “=”: 从“double”到“GLfloat”截断
+D:\source\VS_project\CG\main.cpp(196,17): warning C4305: “-=”: 从“double”到“float”截断
+D:\source\VS_project\CG\main.cpp(224,33): warning C4305: “参数”: 从“double”到“GLclampf”截断
+  正在生成代码
+  1 of 44 functions ( 2.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  CG.vcxproj -> D:\source\VS_project\CG\x64\Release\CG.exe

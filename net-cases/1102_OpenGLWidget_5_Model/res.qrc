@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/shaders">
+        <file>shader.vert</file>
+        <file>shader.frag</file>
+    </qresource>
+    <qresource prefix="/pic">
+        <file>20210928.jpg</file>
+        <file>02.png</file>
+    </qresource>
+</RCC>

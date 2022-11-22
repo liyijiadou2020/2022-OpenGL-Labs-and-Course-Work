@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/shaders"/>
+    <qresource prefix="/pic">
+        <file>02.png</file>
+        <file>01.jpg</file>
+        <file>world-map.jpg</file>
+        <file>03.png</file>
+        <file>04.png</file>
+        <file>06.png</file>
+        <file>07.png</file>
+        <file>08.png</file>
+        <file>09.png</file>
+        <file>10.png</file>
+    </qresource>
+    <qresource prefix="/shader">
+        <file>cone.frag</file>
+        <file>cone.vert</file>
+        <file>ball.vert</file>
+        <file>ball.frag</file>
+        <file>cube.vert</file>
+        <file>cube.frag</file>
+        <file>cube.geom</file>
+        <file>cylinder.vert</file>
+        <file>cylinder.frag</file>
+    </qresource>
+</RCC>

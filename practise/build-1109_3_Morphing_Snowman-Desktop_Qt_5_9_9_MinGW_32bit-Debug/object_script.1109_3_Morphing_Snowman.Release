@@ -1,0 +1,17 @@
+INPUT(
+./release\BallModel.o
+./release\Camera.o
+./release\ConeModel.o
+./release\CubeModel.o
+./release\Light.o
+./release\LightModel.o
+./release\Model.o
+./release\MyOpenGLWidget04.o
+./release\main.o
+./release\mainwindow.o
+./release\qrc_res.o
+./release\moc_Camera.o
+./release\moc_Light.o
+./release\moc_MyOpenGLWidget04.o
+./release\moc_mainwindow.o
+);

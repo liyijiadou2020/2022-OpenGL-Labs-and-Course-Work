@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>768</width>
+    <height>556</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background-color:rgb(68, 68, 68);
+	color:rgb(255, 255, 255);
+	font: 12pt;
+}
+QMenuBar {
+	background-color:rgb(200, 200, 200);
+	color:rgb(60, 60, 60);
+}
+QWidget:checked {
+	background-color:rgb(150, 150, 150);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="OpenGLWidget" name="openGLWidget">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>551</width>
+      <height>351</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>768</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPress_0_Change_color_of_light">
+    <property name="title">
+     <string>Press 0: Change color of light.</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuPress_1_Reset_white_color">
+    <property name="title">
+     <string>Press 1: Reset white color.</string>
+    </property>
+   </widget>
+   <addaction name="menuPress_0_Change_color_of_light"/>
+   <addaction name="menuPress_1_Reset_white_color"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionMOVE"/>
+   <addaction name="actionDice"/>
+   <addaction name="actionBall"/>
+   <addaction name="actionCone"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar_3">
+   <property name="windowTitle">
+    <string>toolBar_3</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+   <addaction name="action_1"/>
+   <addaction name="action_2"/>
+   <addaction name="action_3"/>
+  </widget>
+  <action name="actionMOVE">
+   <property name="text">
+    <string>MOVE</string>
+   </property>
+  </action>
+  <action name="actionDice">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Dice</string>
+   </property>
+  </action>
+  <action name="actionBall">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Ball</string>
+   </property>
+  </action>
+  <action name="actionCone">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Cone</string>
+   </property>
+  </action>
+  <action name="actionChange_Color_of_Light">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Change Color of Light</string>
+   </property>
+  </action>
+  <action name="action_1">
+   <property name="text">
+    <string>лаб1:</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Torus</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Cone, Sphere, Cube</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>OpenGLWidget</class>
+   <extends>QOpenGLWidget</extends>
+   <header location="global">openglwidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

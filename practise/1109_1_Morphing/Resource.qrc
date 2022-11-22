@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fragment.shader</file>
+        <file>vertex.shader</file>
+        <file>dice1000.png</file>
+        <file>world-map.jpg</file>
+    </qresource>
+</RCC>

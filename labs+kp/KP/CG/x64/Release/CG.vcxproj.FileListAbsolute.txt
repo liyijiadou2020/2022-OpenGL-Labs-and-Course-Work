@@ -1,0 +1,3 @@
+D:\source\VS_project\CG\x64\Release\CG.vcxproj.CopyComplete
+D:\source\VS_project\CG\x64\Release\CG.exe
+D:\source\VS_project\CG\x64\Release\glew32.dll

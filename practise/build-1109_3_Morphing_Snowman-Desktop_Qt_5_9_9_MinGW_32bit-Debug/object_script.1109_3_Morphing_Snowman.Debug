@@ -1,0 +1,17 @@
+INPUT(
+./debug\BallModel.o
+./debug\Camera.o
+./debug\ConeModel.o
+./debug\CubeModel.o
+./debug\Light.o
+./debug\LightModel.o
+./debug\Model.o
+./debug\MyOpenGLWidget04.o
+./debug\main.o
+./debug\mainwindow.o
+./debug\qrc_res.o
+./debug\moc_Camera.o
+./debug\moc_Light.o
+./debug\moc_MyOpenGLWidget04.o
+./debug\moc_mainwindow.o
+);
